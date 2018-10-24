@@ -18,7 +18,7 @@ require_once 'includes/internal-menu.php';
 					Customer added successfully.
 				</div>
 			<?php endif; ?>
-			<form method="POST" action="#" id="customer_user">
+			<form method="POST" action="src/action.php" id="customer_user">
 				<input type="hidden" name="_customers">
 				<div class="form-group">
 					<label><b class="required">*</b> Customer name</label>
